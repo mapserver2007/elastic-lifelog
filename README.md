@@ -7,7 +7,7 @@ Next, create a token for OAuth 2.0.
 
 * Execute `runkeeper/runkeeper_auth.rb`
     * Acquire the access token interactively.
-
+
 ### Create csv file for logstash
 Create a fitbit log csv file with the following command. At this time, use OAuth2 token.
 ```sh
