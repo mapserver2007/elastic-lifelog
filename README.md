@@ -72,13 +72,13 @@ Next, open "Nokia Health API developer documentation" at https://developer.healt
     * Input your user id and click the "Generate Access Token creation URL".
     * Open the generated URL. 
 
-Save the obtained four keys, "Consumer key", "Consumer secret", "Access token", "Access token secret" in `withings/data/token.yml`.
+Save the obtained four keys, "Consumer key", "Consumer secret", "Access token", "Access token secret", "User ID" in `withings/data/token.yml`.
 
 ```yml
 key: your key
 secret: your secret
 access_token: your oauth1.0 access token
-access_token_secret: your oauth1.9 access token secret
+access_token_secret: your oauth1.0 access token secret
 user_id: your user id
 ```
 
