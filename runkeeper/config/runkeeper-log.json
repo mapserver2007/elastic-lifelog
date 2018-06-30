@@ -1,0 +1,26 @@
+{
+    "accesslog": {
+      "template": "runkeeper-log",
+      "mappings": {
+        "fluent": {
+          "properties": {
+            "date": {
+              "type": "date",
+              "index": "not_analyzed"
+            },
+            "distance": {
+              "type": "float",
+              "index": "not_analyzed"
+            },
+            "duration": {
+              "type": "float",
+              "index": "not_analyzed"
+            },
+            "calories": {
+              "type": "integer",
+              "index": "not_analyzed"
+            }
+        }
+      }
+    }
+  }

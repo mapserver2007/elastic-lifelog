@@ -1,2 +1,7 @@
 runkeeper/sandbox
-runkeeper/config/token
+runkeeper/config/token.yml
+fitbit/sandbox
+fitbit/config/token.yml
+withings/sandbox
+withings/config/token.yml
+*/data/*.csv
