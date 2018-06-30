@@ -1,0 +1,5 @@
+key: your key
+secret: your secret
+access_token: your oauth1.0 access token
+access_token_secret: your oauth1.9 access token secret
+user_id: your user id
