@@ -1,4 +1,3 @@
-require "rubygems"
 require "health_graph"
 
 def color str, num

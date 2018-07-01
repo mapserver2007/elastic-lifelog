@@ -4,4 +4,6 @@ fitbit/sandbox
 fitbit/config/token.yml
 withings/sandbox
 withings/config/token.yml
+lastfm/sandbox
+lastfm/config/token.yml
 */data/*.csv
