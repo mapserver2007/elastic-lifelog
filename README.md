@@ -86,3 +86,33 @@ Create a withings log csv file with the following command.
 ```sh
 $> ruby withings/withings.rb
 ```
+
+#### 4. Music logs (from Last.fm)
+##### Register API account
+
+Register the API account with https://www.last.fm/api/account/create. Then you can get the key of the API.  
+
+* "Callback URL" specifies http://localhost:9292.
+* The other items may be any values.
+
+When registration is completed, "API key", "API secret" is acquired.  
+Set the obtained key to `lastfm/data/token.yml`.
+
+Next, acquire Last.fm SessionID.
+
+* Execute `lastfm/lastfm_auth.rb`
+    * Acquire the access token interactively.
+
+Add the acquired SessionID to `lastfm/data/token.yml`.
+
+```yml
+key: your api key
+secret: your api secret
+session_id: Session ID obtained in lastfm_auth.rb
+user_id: your user id
+```
+
+Create a lastfm log csv file with the following command.
+```sh
+$> ruby lastfm/lastfm.rb
+```

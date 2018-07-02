@@ -1,0 +1,4 @@
+key: your api key
+secret: your api secret
+session_id: Session ID obtained in lastfm_auth.rb
+user_id: your user id

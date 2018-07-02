@@ -1,3 +1,2 @@
 source 'https://rubygems.org'
-gem 'safe_yaml'
 gem 'health_graph'
