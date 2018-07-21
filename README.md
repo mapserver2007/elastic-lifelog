@@ -87,8 +87,8 @@ Create a withings log csv file with the following command.
 $> ruby withings/withings.rb
 ```
 
-#### 4. Music logs (from Last.fm)
-##### Register API account
+### 4. Music logs (from Last.fm)
+#### Register API account
 
 Register the API account with https://www.last.fm/api/account/create. Then you can get the key of the API.  
 
